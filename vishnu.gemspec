@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'vishnu'
   spec.version       = Vishnu::VERSION
   spec.authors       = ['sansan']
-  spec.email         = ['op_dev@sansan.com']
+  spec.email         = ['op-dev@sansan.com']
 
   spec.summary       = %q{cop file for my project}
   spec.description   = %q{cop file for my project}
