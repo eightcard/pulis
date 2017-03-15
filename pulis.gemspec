@@ -1,10 +1,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'vishnu/version'
+require 'pulis/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'vishnu'
-  spec.version       = Vishnu::VERSION
+  spec.name          = 'pulis'
+  spec.version       = Pulis::VERSION
   spec.authors       = ['sansan']
   spec.email         = ['op-dev@sansan.com']
 

@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in vishnu.gemspec
+# Specify your gem's dependencies in pulis.gemspec
 gemspec
