@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
   spec.description   = %q{cop file for my project}
   spec.homepage      = ''
 
-  spec.bindir        = 'exe'
-  spec.executables   = spec.files.grep(%r{^exe/}) {|f| File.basename(f) }
+  spec.files         = `git ls-files -z`.split("\x0")
+  spec.require_paths = ['lib']
 
   spec.add_dependency 'rubocop', '~> 0.47'
 
