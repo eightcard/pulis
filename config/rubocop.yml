@@ -46,6 +46,10 @@ Metrics/LineLength:
   # Max: 180
   Enabled: false
 
+Metrics/BlockLength:
+  Max: 150
+  CountComments: false
+
 Lint/UnusedBlockArgument:
   Enabled: true
 
