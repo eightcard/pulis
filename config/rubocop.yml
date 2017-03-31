@@ -10,6 +10,8 @@ AllCops:
     - tmp/**/*
     - log/**/*
   TargetRubyVersion: 2.3
+  # NOTE 4 系を利用している場合は書き換える
+  TargetRailsVersion: 5.0
 
 AndOr:
   Enabled: false
