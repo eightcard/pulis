@@ -19,6 +19,10 @@ AndOr:
 CommentAnnotation:
   Enabled: false
 
+# NOTE チームで推奨しているスタイルを差異があるため
+Lint/BlockAlignment:
+  Enabled: false
+
 Lint/EndAlignment:
   Enabled: false
 
