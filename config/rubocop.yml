@@ -47,6 +47,10 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 150
   CountComments: false
+  # NOTE RSpec のブロックは長くなるため
+  Exclude:
+    - "**/*_spec.rb"
+    - "spec/support/*.rb"
 
 Metrics/ClassLength:
   Max: 1000
