@@ -11,44 +11,20 @@ AllCops:
     - log/**/*
   TargetRubyVersion: 2.3
 
-Rails:
-  Enabled: true
-
-Style/AsciiComments:
+AndOr:
   Enabled: false
 
-Style/Documentation:
+CommentAnnotation:
   Enabled: false
 
-Rails/ActionFilter:
+Lint/EndAlignment:
   Enabled: false
 
-Rails/Delegate:
-  Enabled: true
-
-Rails/Validation:
-  Enabled: true
-
-Metrics/AbcSize:
-  Max: 1000
-
-Metrics/ClassLength:
-  Max: 1000
-
-Metrics/CyclomaticComplexity:
-  Max: 50
-
-Metrics/MethodLength:
-  # Max: 30
+Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
-Metrics/LineLength:
-  # Max: 180
+Lint/AssignmentInCondition:
   Enabled: false
-
-Metrics/BlockLength:
-  Max: 150
-  CountComments: false
 
 Lint/UnusedBlockArgument:
   Enabled: true
@@ -65,11 +41,102 @@ Lint/UselessComparison:
 Lint/Void:
   Enabled: true
 
+Metrics/AbcSize:
+  Max: 1000
+
+Metrics/BlockLength:
+  Max: 150
+  CountComments: false
+
+Metrics/ClassLength:
+  Max: 1000
+
+Metrics/CyclomaticComplexity:
+  Max: 50
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+NumericLiterals:
+  MinDigits: 12
+
+Rails:
+  Enabled: true
+
+Rails/ActionFilter:
+  Enabled: false
+
+Rails/Delegate:
+  Enabled: true
+
+Rails/HttpPositionalArguments:
+  Enabled: false
+
+Rails/Validation:
+  Enabled: true
+
+RedundantSelf:
+  Enabled: false
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  EnforcedStyle: no_braces
+
+Style/CaseEquality:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/CollectionMethods:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyLiteral:
+  Enabled: false
+
+Style/GuardClause:
+  MinBodyLength: 3
+
+Style/IfUnlessModifier:
+  MaxLineLength: 60
+
+Style/IndentHash:
+  Enabled: false
+
+Style/IndentationWidth:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
 Style/MultilineBlockChain:
   Enabled: false
 
-Style/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
+Style/MultilineOperationIndentation:
+  Enabled: false
+
+Style/PredicateName:
+  Enabled: false
+
+Style/Semicolon:
+  Enabled: false
+
+Style/SignalException:
+  EnforcedStyle: only_raise
 
 Style/SpaceBeforeBlockBraces:
   EnforcedStyle: space
@@ -78,87 +145,14 @@ Style/SpaceInsideBlockBraces:
   EnforcedStyle: space
   SpaceBeforeBlockParameters: false
 
-Style/BracesAroundHashParameters:
-  EnforcedStyle: no_braces
-
-Style/CollectionMethods:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
-
-Style/AlignParameters:
-  EnforcedStyle: with_fixed_indentation
-
-Style/IfUnlessModifier:
-  MaxLineLength: 60
-
-Style/GuardClause:
-  MinBodyLength: 3
-
-RedundantSelf:
-  Enabled: false
-
-Style/Lambda:
-  Enabled: false
-
-Lint/EndAlignment:
-  Enabled: false
-Style/IndentationWidth:
-  Enabled: false
-
-AndOr:
-  Enabled: false
-
-Style/IndentHash:
-  Enabled: false
-
-Style/CaseEquality:
-  Enabled: false
-
-Style/SignalException:
-  EnforcedStyle: only_raise
-
-NumericLiterals:
-  MinDigits: 12
-
-CommentAnnotation:
-  Enabled: false
-
-Style/BlockDelimiters:
-  Enabled: false
-
-Style/EmptyLiteral:
-  Enabled: false
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
 
 Style/TrailingUnderscoreVariable:
   Enabled: false
 
-Style/Semicolon:
-  Enabled: false
 Style/WhenThen:
-   Enabled: false
-
-Style/MultilineOperationIndentation:
-  Enabled: false
-
-Style/ClassAndModuleChildren:
-  Enabled: false
-
-Lint/UnderscorePrefixedVariableName:
-  Enabled: false
-
-Lint/AssignmentInCondition:
   Enabled: false
 
 SingleLineMethods:
-  Enabled: false
-
-Style/PredicateName:
-  Enabled: false
-
-Rails/HttpPositionalArguments:
-  Enabled: false
-
-Style/AlignParameters:
   Enabled: false
