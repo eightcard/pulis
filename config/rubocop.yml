@@ -139,6 +139,16 @@ Style/MultilineBlockChain:
 Style/MultilineOperationIndentation:
   Enabled: false
 
+# NOTE () で統一していたため [] への変更はしない
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: ()
+    '%r': '{}'
+    '%w': '()'
+    '%W': '()'
+    '%i': '()'
+    '%I': '()'
+
 Style/PredicateName:
   Enabled: false
 
