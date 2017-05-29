@@ -174,7 +174,7 @@ Style/SpaceInsideHashLiteralBraces:
 Style/TrailingUnderscoreVariable:
   Enabled: false
 
-Style/ValiableNumber:
+Style/VariableNumber:
   EnforcedStyle: snake_case
 
 Style/WhenThen:
