@@ -19,6 +19,31 @@ AndOr:
 CommentAnnotation:
   Enabled: false
 
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Layout/IndentHash:
+  Enabled: false
+
+Layout/IndentationWidth:
+  Enabled: false
+
+Layout/MultilineOperationIndentation:
+  Enabled: false
+
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyle: space
+
+Layout/SpaceInsideBlockBraces:
+  EnforcedStyle: space
+  SpaceBeforeBlockParameters: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
 # NOTE チームで推奨しているスタイルを差異があるため
 Lint/BlockAlignment:
   Enabled: false
@@ -91,9 +116,6 @@ Rails/Validation:
 RedundantSelf:
   Enabled: false
 
-Style/AlignParameters:
-  EnforcedStyle: with_fixed_indentation
-
 Style/AsciiComments:
   Enabled: false
 
@@ -105,9 +127,6 @@ Style/BracesAroundHashParameters:
 
 Style/CaseEquality:
   Enabled: false
-
-Style/CaseIndentation:
-  EnforcedStyle: end
 
 Style/ClassAndModuleChildren:
   Enabled: false
@@ -127,19 +146,10 @@ Style/GuardClause:
 Style/IfUnlessModifier:
   MaxLineLength: 60
 
-Style/IndentHash:
-  Enabled: false
-
-Style/IndentationWidth:
-  Enabled: false
-
 Style/Lambda:
   Enabled: false
 
 Style/MultilineBlockChain:
-  Enabled: false
-
-Style/MultilineOperationIndentation:
   Enabled: false
 
 # NOTE () で統一していたため [] への変更はしない
@@ -160,16 +170,6 @@ Style/Semicolon:
 
 Style/SignalException:
   EnforcedStyle: only_raise
-
-Style/SpaceBeforeBlockBraces:
-  EnforcedStyle: space
-
-Style/SpaceInsideBlockBraces:
-  EnforcedStyle: space
-  SpaceBeforeBlockParameters: false
-
-Style/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
 
 Style/TrailingUnderscoreVariable:
   Enabled: false
