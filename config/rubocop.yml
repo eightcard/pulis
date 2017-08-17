@@ -99,6 +99,11 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Enabled: false
 
+Metrics/PerceivedComplexity:
+  Exclude:
+    - "**/*_spec.rb"
+    - "spec/support/*.rb"
+
 NumericLiterals:
   MinDigits: 12
 
