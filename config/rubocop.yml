@@ -107,6 +107,9 @@ Metrics/PerceivedComplexity:
 NumericLiterals:
   MinDigits: 12
 
+Performance/RedundantMatch:
+  Enabled: false
+
 Rails:
   Enabled: true
 
