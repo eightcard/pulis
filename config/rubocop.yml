@@ -164,6 +164,11 @@ Style/Lambda:
 Style/MultilineBlockChain:
   Enabled: false
 
+Style/Next:
+  # EnforcedStyle: skip_modifier_ifs
+  # MinBodyLength: 3
+  Enabled: false
+
 # NOTE () で統一していたため [] への変更はしない
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
