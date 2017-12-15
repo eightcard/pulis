@@ -155,9 +155,6 @@ Style/EmptyLiteral:
 Style/GuardClause:
   MinBodyLength: 3
 
-Style/IfUnlessModifier:
-  MaxLineLength: 60
-
 Style/Lambda:
   Enabled: false
 
