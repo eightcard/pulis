@@ -158,6 +158,10 @@ Style/GuardClause:
 Style/Lambda:
   Enabled: false
 
+Style/Next:
+  EnforcedStyle: skip_modifier_ifs
+  MinBodyLength: 10
+
 Style/MultilineBlockChain:
   Enabled: false
 
