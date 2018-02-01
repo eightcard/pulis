@@ -176,7 +176,7 @@ Style/PercentLiteralDelimiters:
     '%i': '()'
     '%I': '()'
 
-Style/PredicateName:
+Naming/PredicateName:
   Enabled: false
 
 Style/Semicolon:
@@ -188,7 +188,7 @@ Style/SignalException:
 Style/TrailingUnderscoreVariable:
   Enabled: false
 
-Style/VariableNumber:
+Naming/VariableNumber:
   EnforcedStyle: snake_case
 
 Style/WhenThen:
