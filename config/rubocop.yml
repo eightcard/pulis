@@ -196,3 +196,9 @@ Style/WhenThen:
 
 SingleLineMethods:
   Enabled: false
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: true
+
+Style/DefWithParentheses:
+  Enabled: true
