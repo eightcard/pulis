@@ -182,6 +182,9 @@ Style/PercentLiteralDelimiters:
     '%i': '()'
     '%I': '()'
 
+Style/Proc:
+  Enabled: false
+
 Style/Semicolon:
   Enabled: false
 
