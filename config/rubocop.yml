@@ -9,7 +9,7 @@ AllCops:
     - config/**/*
     - tmp/**/*
     - log/**/*
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.5
   # NOTE 4 系を利用している場合は書き換える
   TargetRailsVersion: 5.0
 
