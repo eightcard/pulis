@@ -25,7 +25,7 @@ Layout/AlignParameters:
 Layout/CaseIndentation:
   EnforcedStyle: end
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   Enabled: false
 
 Layout/IndentationWidth:
@@ -45,10 +45,10 @@ Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
 # NOTE チームで推奨しているスタイルを差異があるため
-Lint/BlockAlignment:
+Layout/BlockAlignment:
   Enabled: false
 
-Lint/EndAlignment:
+Layout/EndAlignment:
   Enabled: false
 
 Lint/UnderscorePrefixedVariableName:
