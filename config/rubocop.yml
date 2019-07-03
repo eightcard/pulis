@@ -1,6 +1,9 @@
 # rubocop yml config example
 # https://github.com/ryshinoz/rubocop_sample
 
+require:
+  - rubocop-rails
+
 ######## Rubocop Config ########
 AllCops:
   Exclude:
