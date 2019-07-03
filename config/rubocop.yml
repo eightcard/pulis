@@ -3,6 +3,7 @@
 
 require:
   - rubocop-rails
+  - rubocop-performance
 
 ######## Rubocop Config ########
 AllCops:
