@@ -1,6 +1,10 @@
 # rubocop yml config example
 # https://github.com/ryshinoz/rubocop_sample
 
+require:
+  - rubocop-rails
+  - rubocop-performance
+
 ######## Rubocop Config ########
 AllCops:
   Exclude:
