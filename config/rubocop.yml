@@ -17,19 +17,19 @@ AllCops:
   # NOTE 4 系を利用している場合は書き換える
   TargetRailsVersion: 5.0
 
-AndOr:
+Style/AndOr:
   Enabled: false
 
-CommentAnnotation:
+Style/CommentAnnotation:
   Enabled: false
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
 Layout/CaseIndentation:
   EnforcedStyle: end
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   Enabled: false
 
 Layout/IndentationWidth:
@@ -114,7 +114,7 @@ Naming/PredicateName:
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
-NumericLiterals:
+Style/NumericLiterals:
   MinDigits: 12
 
 Performance/RedundantMatch:
@@ -135,7 +135,7 @@ Rails/HttpPositionalArguments:
 Rails/Validation:
   Enabled: true
 
-RedundantSelf:
+Style/RedundantSelf:
   Enabled: false
 
 Style/AsciiComments:
@@ -201,7 +201,7 @@ Style/TrailingUnderscoreVariable:
 Style/WhenThen:
   Enabled: false
 
-SingleLineMethods:
+Style/SingleLineMethods:
   Enabled: false
 
 Style/MethodCallWithoutArgsParentheses:
