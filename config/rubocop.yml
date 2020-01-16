@@ -97,7 +97,7 @@ Metrics/ClassLength:
 Metrics/CyclomaticComplexity:
   Max: 50
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
