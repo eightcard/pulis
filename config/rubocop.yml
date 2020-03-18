@@ -144,9 +144,6 @@ Style/AsciiComments:
 Style/BlockDelimiters:
   Enabled: false
 
-Style/BracesAroundHashParameters:
-  EnforcedStyle: no_braces
-
 Style/CaseEquality:
   Enabled: false
 
