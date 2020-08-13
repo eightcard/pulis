@@ -74,7 +74,7 @@ Lint/UnusedMethodArgument:
 Lint/UselessAssignment:
   Enabled: true
 
-Lint/UselessComparison:
+Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
 Lint/Void:
@@ -176,12 +176,12 @@ Style/MultilineBlockChain:
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     default: ()
-    '%': '||'
-    '%r': '{}'
-    '%w': '()'
-    '%W': '()'
-    '%i': '()'
-    '%I': '()'
+    "%": "||"
+    "%r": "{}"
+    "%w": "()"
+    "%W": "()"
+    "%i": "()"
+    "%I": "()"
 
 Style/Proc:
   Enabled: false
