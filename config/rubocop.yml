@@ -16,6 +16,7 @@ AllCops:
   TargetRubyVersion: 2.5
   # NOTE 4 系を利用している場合は書き換える
   TargetRailsVersion: 5.0
+  NewCops: enable
 
 Style/AndOr:
   Enabled: false
