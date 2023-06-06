@@ -13,9 +13,8 @@ AllCops:
     - config/**/*
     - tmp/**/*
     - log/**/*
-  TargetRubyVersion: 2.7
-  # NOTE 4 系を利用している場合は書き換える
-  TargetRailsVersion: 5.0
+  TargetRubyVersion: 3.1
+  TargetRailsVersion: 6.1
   NewCops: enable
 
 Style/AndOr:
