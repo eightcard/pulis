@@ -206,3 +206,6 @@ Style/MethodCallWithoutArgsParentheses:
 
 Style/DefWithParentheses:
   Enabled: true
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: either
