@@ -209,3 +209,4 @@ Style/DefWithParentheses:
 
 Style/HashSyntax:
   EnforcedShorthandSyntax: either
+
