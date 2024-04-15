@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rubocop'
+  spec.add_dependency 'rubocop', '~> 1.62.1'
   spec.add_dependency 'rubocop-rails'
   spec.add_dependency 'rubocop-performance'
 
